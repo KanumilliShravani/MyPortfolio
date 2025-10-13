@@ -1,0 +1,22 @@
+.resume-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #01012D;
+    min-height: 100vh;
+}
+.resume-heading{
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px;
+    font-family: "Roboto";
+}
+.resume-desc{
+     color: #ffffff;
+     font-size: 20px;
+      margin: 20px;
+}
+.resume-card{
+    display: flex;
+    flex-direction: column;
+}

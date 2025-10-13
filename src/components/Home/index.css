@@ -1,0 +1,27 @@
+.bg-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #01012D;
+    padding: 15px;
+    font-family: "Roboto";
+}
+.heading{
+ font-size: 36px;
+ color: rgb(240, 232, 232);
+ font-family: "sans-serif";
+}
+.job{
+  color: rgb(181, 177, 177);
+  font-size: 24px;
+}
+.decor-text{
+  background-image: linear-gradient(to right,#3527B7,#A627B7,#B7274B) ;
+  color: #ffffff;
+  border: none;
+  font-weight: 600;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  border-radius:45%;
+}

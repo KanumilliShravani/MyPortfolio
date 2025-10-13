@@ -1,0 +1,32 @@
+.contact-container{
+    height: 100vh;
+    display: flex;
+    background-color: #01012D;
+    flex-direction: column;
+    padding: 10px;
+}
+.contact-heading{
+    font-family: "Roboto";
+    color: #FFFFFF;
+    font: 32px;
+}
+.contact-details{
+    display: flex;
+    flex-direction: column;
+}
+.conatact-subheading{
+    color: #E2EAF4;
+    font-size: 20px;
+}
+.social-links{
+    display: flex;
+    align-items: center;
+}
+.lin-icon{
+    color: #FFFFFF;
+    background-color: blue;
+}
+.link{
+    color: #FFFFFF;
+    margin: 5px;
+}

@@ -1,0 +1,35 @@
+.projects-container{
+    background-color: #01012D;
+    min-height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.projects-heading{
+    font-family: "Roboto";
+    color: #ffffff;
+    font-size: 34px;
+}
+.project-list-card{
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+}
+.project-list-container{
+    display: flex;
+    flex-direction: column;
+}
+.project-name{
+    font-size: 32px;
+    color: #ffffff;
+    font-family: "Roboto";
+}
+.project-image{
+    width: 350px;
+    height: 200px;
+    border-radius: 6px;
+}
+.project-desc{
+   font-size: 20px;
+   color: #ffffff;
+}
