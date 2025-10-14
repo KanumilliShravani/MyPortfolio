@@ -1,7 +1,7 @@
 .contact-container{
     height: 100vh;
     display: flex;
-    background-color: #01012D;
+    background-color: #020222;
     flex-direction: column;
     padding: 10px;
 }

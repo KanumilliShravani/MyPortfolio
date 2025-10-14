@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background-color: #01012D;
-    height: 100vh;
+    background-color: #020222;
+    min-height: 100vh;
 }
 .about-heading{
     color: #ffffff;
@@ -14,9 +14,10 @@
 }
 .about-desc{
     color: #ffffff;
-    font-size: 18px;
+    font-size: 22px;
     letter-spacing: normal;
-    font-weight: 400;
+    font-weight: 300;
     font-family: "Roboto";
     margin: 20px;
+    line-height: 35px;
 }

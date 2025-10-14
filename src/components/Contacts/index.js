@@ -13,7 +13,7 @@ const Contacts = () => {
         <div className='contact-container'>
         <h1 className='contact-heading'>Contact Details</h1>
         <div className='contact-details'>
-            <p className='conatact-subheading'>Email: shravani392@gmail.com</p>
+            <p className='conatact-subheading'>Email: shravanikanumilli97@gmail.com</p>
         </div>
         <div className='contact-details'>
             <h1 className='contact-heading' >Social Links</h1>

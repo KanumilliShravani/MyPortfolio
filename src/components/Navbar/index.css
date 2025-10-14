@@ -1,15 +1,4 @@
-.navbar-container{
-    min-height: 10vh;
-    display: flex;
-    align-items: center;
-    background-color:  #01012D;
-}
-.navbar-list{
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+
 .list-item{
     font-family: "Roboto";
     font-size: 20px;
@@ -21,12 +10,75 @@
     background-image: linear-gradient(#2757B7,#3726B6,#3527B7);
     color: #ffffff;
     border: 2px solid rgb(30, 27, 135);
-    width: 40px;
-    height: 40px;
+    width: 44px;
+    height: 44px;
     border-radius: 50%;
     text-align: center;
-
 }
 .nav-link{
     text-decoration: none;
+}
+
+@media(max-width:768px){
+    .navbar-list{
+        display: none;
+    }
+    .icon{
+        color: #ffffff;
+        display: block;
+      position: absolute;
+      top: 0px;
+      right: 10px;
+    }
+    .menu-btn{
+        background-color: transparent;
+        border: none;
+    }
+    .menu-container{
+        display: flex;
+        flex-direction: column;
+        background-color: #ffffff;
+        height: 250px;
+        position: relative;
+       overflow: hidden;
+    }
+    .navbar-container{
+    min-height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #020222;
+    
+}
+
+}
+
+@media(min-width:769px){
+ .navbar-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-container{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color:  #020222;
+}
+.menu-btn{
+    display: none;
+}
+.menu-container{
+    display: none;
+}
+
+}
+.site-logo{
+    width: 200px;
+    height: 120px;
+    margin: 8px;
+}
+.logo-name{
+    color: #ffffff;
 }

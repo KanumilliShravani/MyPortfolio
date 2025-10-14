@@ -1,7 +1,7 @@
 .resume-container{
     display: flex;
     flex-direction: column;
-    background-color: #01012D;
+    background-color: #020222;
     min-height: 100vh;
 }
 .resume-heading{
