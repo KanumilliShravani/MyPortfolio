@@ -28,12 +28,13 @@ const Navbar = () => {
 
     return (
       <nav className='navbar-container'>
+          <div className='logo-container'>
          <img className='site-logo' src="https://res.cloudinary.com/dqkvvulgz/image/upload/v1760432472/ChatGPT_Image_Oct_14_2025_02_30_19_PM_zahlv6.png" alt="website-logo" />
-         
-        <div>
+          <div className='menu-btn-container'>
           {showMenu ? (<button className='menu-btn' type='button' onClick={onClickMenu}><RxCross2 size={30} className='icon' /></button>): 
           (<button className='menu-btn' type='button' onClick={onClickMenu}><IoMdMenu size={30} className='icon' /></button>)}
           {showMenu && (renderMenu())}
+          </div>
         </div>
         <ul className='navbar-list'>
             <Link className='nav-link' to="/"><li className='list-item'>Home</li></Link>

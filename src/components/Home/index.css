@@ -6,6 +6,7 @@
     background-image: url("https://res.cloudinary.com/dqkvvulgz/image/upload/v1760419433/file_000000004a6462088d9fa965bbb3e662_s1qjjx.png");
     padding: 15px;
     background-size: cover;
+    background-position: center;
     font-family: "Roboto";
 }
 .heading{
