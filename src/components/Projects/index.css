@@ -3,10 +3,13 @@
     font-family: "Roboto";
     color: #ffffff;
     font-size: 34px;
+    margin: 10px;
 }
 .project-list-card{
     display: flex;
     list-style-type: none;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
 }
 
@@ -40,12 +43,14 @@
 .project-list-container{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     background-color: #5f5fcc;
     width: 300px;
-    max-width: 450px;
+    max-width: 360px;
+    overflow: scroll;
     border-radius: 10px;
+    margin: 10px;
     height: 380px;
     padding: 6px;
     margin: 6px;
